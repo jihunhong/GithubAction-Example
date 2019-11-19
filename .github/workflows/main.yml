@@ -8,4 +8,7 @@ jobs:
 
     steps:
       - name: Run a one-line script
-        run: Testing!
+        run: echo Testing!
+
+      - name: run make command
+        run: make
