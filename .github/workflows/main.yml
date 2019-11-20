@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run a one-line script
-        run: echo Testing!
+      - name: dir
+        run: pwd
 
-      - name: run make command
-        run: make
+      - name: list all
+        run: ls -al
